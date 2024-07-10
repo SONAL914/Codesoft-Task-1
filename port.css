@@ -1,0 +1,309 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    }
+    .so{
+    height: 100vh;
+    width: 100%;
+    
+    }
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 25%;
+    padding-right: 8%;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: black;
+    }
+    .logo
+    {
+        color: rgb(8, 8, 8);
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+span{
+    color:rgb(20, 70, 70);
+    padding-right: 95%;
+   
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+color:black ;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+.son{
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style:initial;
+}
+.sin{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%);
+}
+h2{
+    color: black;
+    margin:20px 0px 20px ;
+    font-size: 75px;
+    
+}
+ h5{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+} 
+.btn{
+    color: aqua;
+    background-color: blue;
+}
+img{
+ padding-right: 0;
+}
+.about{
+    width:100%;
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+    display: block;
+    overflow: hidden;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+    color: white;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: white;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ */
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+.skills-area {
+ 
+  /* flex-direction: column; */
+  /* padding: 0 20%; */
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: 0 14px 28px;
+  box-sizing: border-box;
+  box-sizing: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: block;
+  overflow: auto;
+
+
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 20px;
+ border-radius: 20px;
+ padding: 0px;
+ 
+}
+
+.skill-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin: 20px 0;
+  /* padding: 10px; */
+  /* margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 14px 28px; */
+  
+}
+
+.skill-bar {
+  width: 100%;
+  background: black;
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+  border: 100px;
+  border-radius: 100px;
+  box-shadow: 0 1px 3px;
+  
+}
+
+.skill-fill {
+  background: blue;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+  border: 100px;
+}
+.html {
+    animation: html 2s;
+    width: 90%;
+  }
+  
+  .css {
+    animation: css 2s;
+    width: 80%;
+  }
+  
+  .js {
+    animation: js 2s;
+    width: 70%;
+  }
+
+  
+  @keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  
+  @keyframes css {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes js {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
+ 
+  
+  @media only screen and (max-width: 750px) {
+    .skills-area {
+      padding: 0 5%;
+    }
+  }
+  .resume img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:none ;
+  }
+  .resume{
+    text-transform: capitalize;
+    text-decoration:none ;
+  }
+  /* .main img{
+   margin-left: 600px;
+   image-orientation: initial;
+   
+  } */
+
+  .sskill{
+    margin-bottom: 100px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 150px;
+    
+  }
+  .project{
+background-color: black;
+margin-bottom: 100px;
+  }
+  .project-text h1{
+    color: white;
+  }
+  .my-5{
+    background-color: black;
+  }
+  .py-5 h1{
+    color: white;
+  }
+  .form-group h4{
+    color: white;
+  }
+
+  .footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+    padding-left: 50px;
+}
+
+.footer .footer_cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding-left: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.footer li {
+    line-height: 1.9;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
